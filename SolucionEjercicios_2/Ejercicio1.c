@@ -17,6 +17,7 @@ char *puntero;
 	printf("\nEl contenido de p+2 es =%c",*p);
 	x[0]='y';
 	p=&y;
-	printf("\nEl contenido de p es =%p",&p);
+	printf("\nEl contenido de p es =%c",&p);
+    printf("\n");
 	return 0;
 }
