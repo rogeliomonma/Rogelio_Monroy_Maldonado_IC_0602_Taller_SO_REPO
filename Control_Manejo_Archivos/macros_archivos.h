@@ -19,4 +19,6 @@ int listavacia(lista l);
 void borrarlista(lista *);
 void mostrarlista(lista l);
 void burbuja(char arreglo[][MAXIMA_LONGITUD_CADENA],int longitud);
+int comparar(const void *a, const void *b);
+void control (char origen[],char destino1[]);
 #endif
