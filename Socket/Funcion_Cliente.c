@@ -31,7 +31,7 @@ void Cliente(){
 			printf("EL SERVIDOR MANDO EL SIGUIENTE MENSAJE: %s \n",buffer);
             //Pedimos el primer numero por el buffer del teclado
 			char num1[MAXIMO_DATOS ];
-			printf("\nIngrese el primer valor de  (1-19 digitos)\n");
+			printf("\nIngrese el numero 1 de tipo unsigned long long int\n");
 			scanf("%s",num1);
             //Enviamos el numero 1 al servidor
 			send(clientSocket,num1,strlen(num1),0);
@@ -42,7 +42,7 @@ void Cliente(){
 			printf("\nEL SERVIDOR MANDO EL SIGUIENTE MENSAJE: %s \n",buffer);
 			//Pedimos el segundo numero por el buffer del teclado
 			char num2[MAXIMO_DATOS ];	
-			printf("\nIngrese el segundo valor de  (1-19 digitos)\n");
+			printf("\nIngrese el numero 2 de tipo unsigned long long int\n");
 			scanf("%s",num2);
             //Enviamos el numero 2 al servidor
 			send(clientSocket,num2,strlen(num2),0);
